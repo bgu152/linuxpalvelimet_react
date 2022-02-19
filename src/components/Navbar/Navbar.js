@@ -18,7 +18,7 @@ const Navbar = () =>{
                 })}
             </ul>
             <h2 className='navbar-logo'>
-                <span style={{color:'white'}}>Linux palvelimet <i class="fab fa-ubuntu"></i></span>
+                <span style={{color:'white', marginRight:30}}>Linux palvelimet <i class="fab fa-ubuntu"></i></span>
                 </h2>
         </nav>
     )

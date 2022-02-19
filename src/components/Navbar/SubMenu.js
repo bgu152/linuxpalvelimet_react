@@ -6,12 +6,27 @@ import { IconContext } from 'react-icons/lib';
 import './Navbar.css';
 
 const SubMenu = ({ item }) => {
+
+    const menuWithLink = () =>{
+        if(item.path){
+            return(
+                <Link className='SubMenuTitle' to={item.path}>{item.title}</Link>
+            )
+        }else{
+            return(
+                <a className='SubMenuTitle' href={item.href}>{item.title}</a>
+            )
+        }
+    }
+
     return (
             <div className='dropDown'>
                 {/* Menu label with link*/}
-                <Link className='SubMenuTitle' to={item.path}  >{item.title} </Link>
+
+                {/* <Link className='SubMenuTitle' to={item.path}  >{item.title} </Link> */}
+                {menuWithLink()}
                 <div className='dropDownContent'>
-                    {item.subNav.map((subitem, index) => {
+                    {item.subNav && item.subNav.map((subitem, index) => {
                         if(subitem.path){
                             return (
                                 <Link className='DropdownLink' to={subitem.path}>{subitem.title}</Link>

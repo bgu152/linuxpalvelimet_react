@@ -1,9 +1,29 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 h1{
     margin-top: 10px;
     margin-bottom: 20px;
 }
-h1,p{
+h3, h2{
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+}
+h1,p, u, li, h3, h2, b{
     
     font-family: 'Montserrat', sans-serif;
+}
+
+.body{
+    padding: 20px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+p{
+    margin-top:5px;
 }
