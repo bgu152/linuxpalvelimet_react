@@ -7,7 +7,7 @@ const Ratkaisut5 = () => {
         <div>
             <Ratkaisu5a />
 
-            <div id="5a"></div>
+            <div id="5b"></div>
             <Ratkaisu5b/>
         </div>
     )
