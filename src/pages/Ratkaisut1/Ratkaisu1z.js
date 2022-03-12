@@ -4,7 +4,8 @@ import '../Ratkaisut.css';
 
 const Ratkaisu1z = () => {
   return (
-    <div>
+    <div className='body'>
+
                 <h1>Tehtävä 1z - Tiivistelmä artikkeleistä</h1>
         <p>Päivämäärä: 22.1.2022 <br/>
             Opiskelija: Erik Ramm-Schmidt</p>

@@ -7,6 +7,7 @@ import Etusivu from './pages/Etusivu';
 import Harjoitukset from './pages/Harjoitukset';
 import Ratkaisut1 from './pages/Ratkaisut1';
 import Ratkaisut4 from './pages/Ratkaisut4';
+import Ratkaisut5 from './pages/Ratkaisut5'
 
 function App() {
   return (
@@ -15,11 +16,11 @@ function App() {
         <Navbar/>
         <Routes>
           {/* detta är nya sättet */}
-          <Route exact path='/etusivu' element={<Etusivu />} />
-          <Route path='/harjoitukset' element={<Harjoitukset/>} />
-          <Route path='/ratkaisut1' element={<Ratkaisut1/>} />
-          <Route path='/ratkaisut4' element={<Ratkaisut4/>} />
-
+          <Route exact path='/etusivu' element={<Etusivu />}/>
+          <Route path='/harjoitukset' element={<Harjoitukset/>}/>
+          <Route path='/ratkaisut1' element={<Ratkaisut1/>}/>
+          <Route path='/ratkaisut4' element={<Ratkaisut4/>}/>
+          <Route path='/ratkaisut5' element={<Ratkaisut5/>}/>
         </Routes>
       </Router>
     </div>

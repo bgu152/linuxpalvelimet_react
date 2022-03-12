@@ -24,7 +24,11 @@ export const MenuData = [
       },
       {
         title: 'Viikko4',
-        href: 'https://terokarvinen.com/2021/linux-palvelimet-ict4tn021-3018/#h'
+        href: 'https://terokarvinen.com/2021/linux-palvelimet-ict4tn021-3018/#h4'
+      },
+      {
+        title: 'Viikko5',
+        href: 'https://terokarvinen.com/2021/linux-palvelimet-ict4tn021-3018/#h5'
       }
     ]
   },
@@ -72,6 +76,20 @@ export const MenuData = [
       {
         title:'Tehtävä 4g',
         path: '/ratkaisut4#4g'
+      }
+    ]
+  },
+  {
+    title:'Ratkaisut 5',
+    path: '/ratkaisut5',
+    subNav:[
+      {
+        title:'Ratkaisu 5a',
+        path: '/ratkaisut5#5a'
+      },
+      {
+        title:'Ratkaisu 5a',
+        path: '/ratkaisut5#5a'
       }
     ]
   }
