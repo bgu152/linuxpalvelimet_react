@@ -9,6 +9,7 @@ import Ratkaisut1 from './pages/Ratkaisut1';
 import Ratkaisut4 from './pages/Ratkaisut4';
 import Ratkaisut5 from './pages/Ratkaisut5';
 import Ratkaisut6 from './pages/Ratkaisut6';
+import Labra from './pages/Labra';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/ratkaisut4' element={<Ratkaisut4/>}/>
           <Route path='/ratkaisut5' element={<Ratkaisut5/>}/>
           <Route path='/ratkaisut6' element={<Ratkaisut6/>}/>
+          <Route path='/labra' element={<Labra/>}/>
         </Routes>
       </Router>
     </div>

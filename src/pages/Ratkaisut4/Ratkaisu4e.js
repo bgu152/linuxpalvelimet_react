@@ -122,6 +122,8 @@ const Ratkaisu4e = () => {
             <img src={Picture2} />
             <br/>
             <img src={Picture3} />
+            <h3>Lähteet</h3>
+            <cite>Verkkotunnukset, verkkosivustot, verkkohotelli ja verkkomarkkinointityökalut – GoDaddy FI, https://fi.godaddy.com/. </cite>
 
         </div >
     )

@@ -108,6 +108,10 @@ export const MenuData = [
     {title:'Ratkaisu 6f',
       path:'/ratkaisut6#6f'  }
     ]  
+  },
+  {
+    title: 'Labratyö',
+    path: '/labra'
   }
   
 ];

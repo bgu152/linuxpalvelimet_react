@@ -19,9 +19,10 @@ h1,p, u, li, h3, h2, b{
 .body{
     padding-top: 20px;
     padding-left:100px;
+    padding-right:100px;
 }
 
-ul{
+ul,ol{
     padding-left:20px;
 }
 
@@ -31,4 +32,16 @@ li{
 
 p{
     margin-top:5px;
+}
+
+.code{
+    background-color: bisque;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:100px;
+    width: 600px;
+
+}
+img{
+    max-width: 800px;
 }
